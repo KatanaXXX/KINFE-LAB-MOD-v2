@@ -36,6 +36,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: RIPTIDE-Knife-Lab-JAR
-          path: riptide-knife-lab-milestone1/riptide-knife-lab/build/libs/*.jar
+          path: riptide-knife-lab/build/libs/*.jar
           if-no-files-found: error
           retention-days: 14
